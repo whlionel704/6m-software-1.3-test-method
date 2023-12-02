@@ -31,7 +31,7 @@ function convert(keyArr, valueArr){
     for(let i = 0; i < keyArr.length; i++) {
         let key = keyArr[i];
         let value = valueArr[i];
-        result[key] = value;
+        result[key] = value; 
     }
 
     return result;
